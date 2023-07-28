@@ -11,7 +11,7 @@ The breakdown here is that for each char in the words variable, the total points
 
     word = "Lay"
 
-Now we iterate over the word:
+Now we iterate over the list words and then nesting over the loop with a for loop that access the substrings of each index of words:
     for word in words:
         for char in word.lower():
             if char in points:
